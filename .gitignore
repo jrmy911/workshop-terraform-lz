@@ -1,0 +1,16 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+*.pem
+*.key
+*.pub
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+# acc.tfvars / prd.tfvars are deliberately tracked: examples, no secrets.
+# .terraform.lock.hcl should be tracked after terraform init.
